@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CLI App product marketplace ",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathleenmont/Bamazon.git"
+  },
+  "author": "Kathleen Montesano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathleenmont/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Kathleenmont/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  }
+}

@@ -6,7 +6,9 @@ Using bamazonCustomer.js customers can view the products and buy using the produ
 
 Using bamazonManager.js managers can manage inventory, sock inventory, and add new products.
 
-[Here](/videos/bamazonCustomer.mov)
+click [Here](https://www.youtube.com/watch?v=MzIEqbY0v_I&feature=youtu.be) for the bamazonCustomer.js walkthrough
+
+click for the bamazonManager.js walkthrough
 
 
 

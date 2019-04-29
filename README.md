@@ -8,7 +8,7 @@ Using bamazonManager.js managers can manage inventory, sock inventory, and add n
 
 click [Here](https://www.youtube.com/watch?v=MzIEqbY0v_I&feature=youtu.be) for the bamazonCustomer.js walkthrough
 
-click for the bamazonManager.js walkthrough
+click [Here]([Here](https://www.youtube.com/watch?v=MzIEqbY0v_I&feature=youtu.be) for the bamazonManager.js walkthrough
 
 
 

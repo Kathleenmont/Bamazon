@@ -16,9 +16,6 @@ connection.connect(function (err) {
 });
 
 
-
-
-
 var start = function () {
 
 
@@ -54,26 +51,26 @@ var start = function () {
                     var chosenItem = res[i];
                    
                     if (chosenItem.stock_quantity >= parseInt(answer.howMany)) {
-                        console.log("Your order total is " + chosenItem.price * answer.howMany)
+                        console.log("\n Your order total is $" + chosenItem.price * answer.howMany + "\n")
                         connection.query("UPDATE products SET ? WHERE ?", [{
                             stock_quantity: chosenItem.stock_quantity - parseInt(answer.howMany)
                         }, {
                             item_id: chosenItem.item_id
                         }], function (err, res) {
-                            console.log("your purches was succesful.");
-                            console.log("Would you like to go back to the begining.");
-                            start();
+                            console.log("\n your purches was succesful. \n");
+                            
+                           
                         })
                     } else {
-                        console.log("We don't have enough of the item to fulfill your order. Try again with a smaller quantitity \n")
-                        // start();
+                        console.log("\n We don't have enough of the item to fulfill your order. Try again with a smaller quantitity \n")
+                       
                     }
 
                 }
             }
             if (chosenItem === undefined) {
-                console.log("Choose a valad ID number")
-                // start();
+                console.log("\n Choose a valad ID number \n")
+                
             }
         })
 
